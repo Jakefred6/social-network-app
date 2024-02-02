@@ -62,7 +62,7 @@ const addFriend = async (req, res) => {
 
 // Function to remove a friend from a user's friend list
 const removeFriend = async (req, res) => {
-  const { userId, friendId } = req.body;
+  const { userId, friendId } = req.params;
 
   // Validate if friendId is a valid ObjectId
   if (!mongoose.Types.ObjectId.isValid(friendId)) {

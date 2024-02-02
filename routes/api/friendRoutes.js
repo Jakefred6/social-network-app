@@ -10,6 +10,6 @@ const router = express.Router();
 router.post("/:userId/friends/:friendId", addFriend);
 
 // DELETE to remove a friend from a user's friend list
-router.delete("/remove-friend", removeFriend);
+router.delete("/:userId/friends/:friendId", removeFriend);
 
 module.exports = router;
