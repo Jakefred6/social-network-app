@@ -37,7 +37,9 @@ The Social Network App Backend API serves as the backbone for your social networ
 
 ## Demo
 
-- A live demo video can be found at this link: HERE
+- A live demo video can be found at this link: [HERE](https://github.com/Jakefred6/social-network-app/blob/master/demo/Walkthrough.mkv)
+- ## OR
+  <img src='demo\Walkthrough.gif'>
 
 ## Getting Started 🛠️
 
